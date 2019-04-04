@@ -96,5 +96,6 @@
 
 (defn post
   [client action data]
-  (let [url (gen-url client action)]
-    (http-client/post url {:body data})))
+  (let [url (gen-url client action)
+        post-parms (merge {:body data} (:post-opts client))]
+    (http-client/post url post-parms)))
