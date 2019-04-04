@@ -1,8 +1,14 @@
-Capacitor  [![Build Status](https://travis-ci.org/olauzon/capacitor.png?branch=master)](https://travis-ci.org/olauzon/capacitor)
-=========
+l3nz's Capacitor  
+================
 
-PLEASE NOTE THIS LIBRARY IS NO LONGER MAINTAINED!!!
-===================================================
+
+
+The library is available on Clojars:
+
+[![Clojars Project](https://img.shields.io/clojars/v/lenz/capacitor.svg)](https://clojars.org/lenz/capacitor)
+[![](https://cljdoc.xyz/badge/lenz/capacitor)](https://cljdoc.xyz/jump/release/lenz/capacitor)
+
+
 
 A Clojure client for [InfluxDB](https://influxdata.com/time-series-platform/influxdb/).
 
@@ -20,7 +26,7 @@ Capacitor is distributed via [Clojars](https://clojars.org/capacitor). Add the
 following to your dependencies in `project.clj`:
 
 ```clj
-:dependencies [[capacitor "0.6.0"]]
+:dependencies [[lenz/capacitor "0.6.0.2"]]
 ```
 
 
